@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arcade Classic';
+    src: url(css/arcade_ya/ARCADE_I.TTF) format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2ef8a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+main .menu {
+    background-color: #67ff6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arcade Classic', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+}
