@@ -30,7 +30,7 @@ main {
 }
 
 main .menu {
-    
+    display: flex; /* A div .menu deve ser visível inicialmente */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -39,27 +39,21 @@ main .menu {
     border-style: dashed; /* Estilo da borda tracejada */
     border-width: 5px; /* Largura da borda */
     border-color: #15e6cc; 
-}
-
-main .game, main .menu{
     background-color: #67ff6b;
-    display: flex;
+    
     flex-direction: column;
     font-family: 'Arcade Classic', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    border-radius: 50px;
     width: 80%;
     padding: 20px;
 }
 
-main .game{
-    display: none;
+main .game {
+    display: flex;
     flex-direction: column;
-    height: 70%;
-}
-
-
-main .displayInformation{
-    display: none;
+    justify-content: space-between;
+    background-color: black;
+    height: 80%;
+    width: 80%;
 }
